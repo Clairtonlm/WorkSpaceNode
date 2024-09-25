@@ -37,7 +37,7 @@ app.delete('/cursos/:index', (req, res)=>{
     const {index} = req.params;
 
     cursos.splice(index, 1)
-    return res.json({message: "Deletado"});
+    return res.json({message: "Deletado com sucesso"});
 
 })
 
